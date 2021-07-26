@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section id="sobre">
+            <div id="icone">
+                <img src="../static/img/felipe_menezes.jpg">
+            </div>
+
+            <div id="conteudo">
+                <h2>Eu sou Felipe Menezes</h2>
+                <p>Desde criança sou apaixonado por tecnologia, era muito curioso e desenvolvia pequenos projetos por conta própria. A vida acabou me levando por outros caminhos que, sem dúvidas, me agregaram e muito. Atualmenete eu ansio por tão logo voltar minha vida ao mercado da tecnologia, para assim poder estar fazendo o que eu realmente sempre amei e me proporcionando melhores condições de vida.<br>#python #dataScience
+                    #html #css #js</p>
+            </div>
+
+        </section>
+
+        <section id=habilidades>
+            <h2>Minhas Habilidades</h2>
+            <div class="coluna">
+                <div class="circulo python">
+                    <span>70%</span>
+                </div>
+                <strong>PYTHON</strong>
+            </div>
+            <div class="coluna">
+                <div class="circulo html">
+                    <span>60%</span>
+                </div>
+                <strong>HTML</strong>
+            </div>
+            <div class="coluna">
+                <div class="circulo css">
+                    <span>60%</span>
+                </div>
+                <strong>CSS</strong>
+            </div>
+            <div class="coluna">
+                <div class="circulo js">
+                    <span>50%</span>
+                </div>
+                <strong>JAVASCRIPT</strong>
+            </div>
+
+        </section>
+
+        <section id="projetos">
+            <div id="topo"></div>
+            <h2>Projetos</h2>
+            <div id="botoes">
+                <button id="btnUm" class="ativo" value="ativo">Lógica</button>
+                <button id="btnDois" class="inativo" value="inativo">Front-End</button>
+            </div>
+            <div id="logica">
+                <div class="container">
+                    <a href="https://encurtador.com.br/xKP49" target="_blank">
+                        <img src="../static/img/1-detetive.jpeg">
+                        <div class="legenda">
+                            <span>DETETIVE</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="https://encurtador.com.br/kqtBK" target="_blank">
+                        <img src="../static/img/2-jokenpo.jpeg">
+                        <div class="legenda">
+                            <span>JOKENPO</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="htpps://encurtador.com.br/iCTXY" target="_blank">
+                        <img src="../static/img/3-dados.jpeg">
+                        <div class="legenda">
+                            <span>JOGO DE DADOS</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="https://encurtador.com.br/lBUV8" target="_blank">
+                        <img src="../static/img/4-eleicao.jpeg">
+                        <div class="legenda">
+                            <span>SIMULADOR DE ELEIÇÃO</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="encurtador.com.br/alxDU" target="_blank">
+                        <img src="../static/img/5-ficcao.jpg">
+                        <div class="legenda">
+                            <span>FICÇÃO INTERATIVA</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="front">
+                <div class="container">
+                    <a href="https://nicolascage-humores.vercel.app/" target="_blank">
+                        <img src="../static/img/6-humor.jpg">
+                        <div class="legenda">
+                            <span>JOGO DO HUMOR</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="https://encurtador.com.br/kqtBK" target="_blank">
+                        <img src="../static/img/2-jokenpo.jpeg">
+                        <div class="legenda">
+                            <span>PORTFOLIO</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <p>Quer iniciar um projeto ou somente dar um "oi"? Sinta-se a vontade!</p>
+            <div id="meios">
+                <form action="/send" method="POST">
+                    <h3>Escreva uma mensagem</h3>
+                    <label for="nome">Nome</label>
+
+                    <input type="text" placeholder="Digite seu nome" id="nome" name="nome">
+                    <label for="email">E-mail</label>
+
+                    <input type="email" placeholder="Digite seu email" id="email" name="email">
+                    <label for="mensagem">Mensagem</label>
+
+                    <textarea rows=10 placeholder="Digite sua mensagem" id="mensagem" name="mensagem"></textarea>
+
+                    <button id="enviar" type="submit">ENVIAR</button>
+                </form>
+
+                <div id="social">
+                    <h3>Contatos</h3>
+
+                    <h4><i class="bi bi-phone-fill"></i> Telefone</h4>
+                    <p>(21) 97415-0424</p><br>
+
+                    <h4><i class="bi bi-envelope-fill"></i> E-mail</h4>
+                    <p>sa.felipem@gmail.com</p>
+
+                    <div id="redes">
+
+                        <a href="https://linkedin.com/in/felipe-menezes-/" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/menezesfelipee" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                        <a href="https://instagram.com/menezesfelipee" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="../static/js/script.js"></script>
+</body>
+
+</html>
